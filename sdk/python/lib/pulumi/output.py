@@ -42,6 +42,7 @@ U = TypeVar('U')
 
 Input = Union[T, Awaitable[T], 'Output[T]']
 Inputs = Mapping[str, Input[Any]]
+InputType = Union[T, Dict[str, Any]]
 
 
 class Output(Generic[T]):

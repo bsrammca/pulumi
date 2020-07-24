@@ -69,6 +69,7 @@ from .output import (
     Output,
     Input,
     Inputs,
+    InputType,
     UNKNOWN,
     contains_unknowns,
     MISSING,
